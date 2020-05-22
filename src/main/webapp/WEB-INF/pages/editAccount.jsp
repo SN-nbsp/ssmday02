@@ -7,8 +7,8 @@
 <h2>修改账户</h2>
 <form method="post" action="${pageContext.request.contextPath}/account/editAccount">
     <input type="hidden" name="aid" value="${account.aid}">
-    账号：<input type="text" name="number" value="${account.number}"/><br/>
-    余额：<input type="text" name="balance" value="${account.balance}"/><br/>
+    我的账号：<input type="text" name="number" value="${account.number}"/><br/>
+    我的余额：<input type="text" name="balance" value="${account.balance}"/><br/>
     <input type="submit" value="保存"/>
 </form>
 </body>

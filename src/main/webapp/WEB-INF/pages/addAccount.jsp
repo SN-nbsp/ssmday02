@@ -6,8 +6,8 @@
 <body>
 <h2>添加账户</h2>
 <form method="post" action="${pageContext.request.contextPath}/account/addAccount">
-    账号：<input type="text" name="number" value=""/><br/>
-    余额：<input type="text" name="balance" value=""/><br/>
+    我的账号：<input type="text" name="number" value=""/><br/>
+    我的余额：<input type="text" name="balance" value=""/><br/>
     <input type="submit" value="添加"/>
 </form>
 </body>
